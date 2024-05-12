@@ -132,7 +132,9 @@ class Ptb2State extends State<Ptb2> {
         return;
       }
       if (discriminant == 0) {
-        result = 'The equation has 1 double solution x = ${-(b / 2 * a)}';
+        double x = -(b / 2 * a);
+        result = 'The equation has 1 double solution \n'
+            'x = ${x.toStringAsFixed(2)}';
         return;
       }
       double x1 = (-b + sqrt(discriminant)) / (2 * a);

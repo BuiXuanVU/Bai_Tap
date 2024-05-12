@@ -1,9 +1,11 @@
+import 'package:bai_tap/Bai1/widget.dart';
+import 'package:bai_tap/Bai3/todolist.dart';
 import 'package:flutter/material.dart';
 
 import 'Bai2/ptbac2.dart';
 
 void main() {
-  runApp(Ptb2());
+  runApp(MaterialApp(home: TodoList()));
 }
 
 class MyApp extends StatelessWidget {
