@@ -1,11 +1,13 @@
 import 'package:bai_tap/Bai1/widget.dart';
 import 'package:bai_tap/Bai3/todolist.dart';
+import 'package:bai_tap/Bai4/TimeWatch.dart';
+import 'package:bai_tap/Bai5/note.dart';
 import 'package:flutter/material.dart';
 
 import 'Bai2/ptbac2.dart';
 
 void main() {
-  runApp(MaterialApp(home: TodoList()));
+  runApp(MaterialApp(home: ListNote()));
 }
 
 class MyApp extends StatelessWidget {

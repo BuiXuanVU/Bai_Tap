@@ -38,7 +38,7 @@ class Pttb1State extends State<Pttb1> {
                         keyboardType: TextInputType
                             .number, // Set keyboard type for numbers
                         decoration: const InputDecoration(
-                            hintText: 'Enter coefficient a'),
+                            hintText: 'Enter coefficient '),
                       ),
                     ),
                   ],

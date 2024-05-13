@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class AddMore extends StatefulWidget {
+class AddNote extends StatefulWidget {
   @override
-  State<AddMore> createState() {
+  State<AddNote> createState() {
     return AddToList();
   }
 }
 
-class AddToList extends State<AddMore> {
+class AddToList extends State<AddNote> {
   final TextEditingController _addText = TextEditingController();
   @override
   Widget build(BuildContext context) {
